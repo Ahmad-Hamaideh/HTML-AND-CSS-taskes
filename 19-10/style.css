@@ -1,0 +1,37 @@
+.h2{
+ color: rgb(3, 66, 124);
+background-color: rgb(130, 199, 255);
+}
+.br{
+  font-weight: 600;
+
+}
+.bn{
+background-color: rgba(169, 169, 169, 0.585);
+
+}
+#cv{
+    color: rgb(71, 71, 174);
+}
+.xx{
+    color: rgb(0, 0, 92);
+}
+.cc{
+    color: rgb(136, 136, 255);
+}
+#zz{
+    font-weight: 995;
+}
+
+#zx{
+    margin: 20px 50px;
+    border: 1px solid #050505;
+
+}
+#mm{
+    margin-left:1.5ch  
+}
+
+#cz{
+    margin: 20px;
+}
