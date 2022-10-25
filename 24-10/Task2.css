@@ -1,19 +1,20 @@
+html,body{ width: 100%;height: 100%;}
+
 #cont{
-width: 329px;
+width: 100%;
+height: 100%;
 display: grid;
 color: white;
-grid-template-rows: auto;
-column-gap: 32px;
-grid-template-columns: 50px 50px 50px 50px;
-font-size: 31PX;
+grid-template-columns: auto auto auto auto;
+font-size: 150PX;
 text-align: center;
-margin: 50px;
-border:  4px solid rgb(151, 98, 27);
+
+
 
 }
 .hi{
-    width: 83px;
-    height: 50px;
+    width: 25%px;
+    height: 25%px;
     align-content: stretch;
   
 
@@ -51,4 +52,39 @@ border:  4px solid rgb(151, 98, 27);
 }
 #a10{
     background-color: rgb(59, 7, 38);
+}
+
+@media(min-width:0px) and (max-width:480px){
+    
+    #cont{
+        display: flex;
+        background-color: crimson;
+        font-size: 110px;
+        color: white;
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .hi{
+        width: 100%;
+        height: 200px;
+    }
+    }
+
+@media(min-width:481px) and (max-width:768px){
+    #cont{
+     
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: crimson;
+        font-size: 60px;
+        color: white;
+        text-align: center;
+    }
+    .hi{
+        width: 100%;
+        height: 300px;
+    }
+    
+    
 }
