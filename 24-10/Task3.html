@@ -4,13 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task 3</title>
-<link rel="stylesheet" href="Task3.css"
+    <title>task3</title>
+    <style>
+.cont{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    height: 100%;
+    font-size: 60px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    
+
+
+}
+
+.first{
+    background-color: rgba(198, 160, 36, 0.491);
+  width: 50%;
+  color: white;
+  text-align: center;
+  
+
+
+  
+}
+.secend{
+    width: 50%;
+    color: white;
+    text-align: center;
+    background-color: rgba(14, 97, 97, 0.516);
+}
+.box{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(min-width:0px) and (max-width:480px){
+            .cont{
+                flex-direction: column;  
+                
+                
+
+            }
+            .first{
+                display: flex;
+                text-align: center;
+                width: 100%;
+                height: 100%;
+            
+                
+            }
+            .secend{
+                display: flex;
+                text-align: center;
+                width: 100%;
+                height: 100%;
+
+            }
+          
+        }
+
+
+
+
+@media(min-width:481px) and (max-width:768px){
+
+
+    </style>
 </head>
 <body>
-    <div id="cont">
-        <div  id="lol" class="omg"> First</div>
-        <div id="lo" class="omg">Second</div>
+    <div class="cont">
+            <div class="first box"><p>first part</p></div>
+            <div class="secend box"><p>second part</p></div>
     </div>
 </body>
 </html>
